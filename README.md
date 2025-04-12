@@ -30,22 +30,30 @@ We use min-batch (batch size 64) stochastic gradient descent for updating the we
 
 Run the following commands on 
 
+```bash
 mkdir build
 cd build
 cmake ..
 make -j$(nproc)
+```
 
 After all of these are completed, for running the CNN:
 
+```bash
 make run_cnn
+```
 
 And for testing the CNN:
 
+```bash
 make run_evaluate
+```
 
 And for running the simple neural network:
 
+```bash
 make -j$(nproc)
+```
 
 The program will:
 1. Load the MNIST training and test data
