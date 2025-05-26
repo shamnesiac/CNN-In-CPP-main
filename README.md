@@ -90,7 +90,7 @@ The CNN gives us a testing accuracy of 95.16%, whereas our simple neural network
 
 ## Additional Notes
 
-- We have used multiple compiler optimizations and OpenMP to optimize our CNN traininf code, because training time was extremely high without these optimizations.
+- We have used multiple compiler optimizations and OpenMP to optimize our CNN training code, because training time was extremely high without these optimizations.
 - The logic and formulae used for implementing forwarding and backpropogation in the convolution layers in our neural network was taken from the following YouTube video: https://www.youtube.com/watch?v=z9hJzduHToc
 - Our basic neural network was made solely for comparing the results to our CNN with a basic neural network approach, hence we have not made the evaluation files for the basic neural network.
 - To modify the hyperparameters, go to CMakeLists.txt and modify the numbers mentioned alongside the comments
